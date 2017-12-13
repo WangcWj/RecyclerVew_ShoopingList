@@ -1,0 +1,2 @@
+# RecyclerVew_ShoopingList
+使用RecyclerView实现双列表联动,商品展示效果
