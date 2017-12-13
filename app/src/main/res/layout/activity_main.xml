@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    tools:context="cn.example.wang.relevancerecycleviewdemo.MainActivity">
+   <android.support.v7.widget.RecyclerView
+       android:id="@+id/out_rec"
+       android:layout_weight="3"
+       android:layout_width="match_parent"
+       android:layout_height="match_parent">
+   </android.support.v7.widget.RecyclerView>
+   <cn.example.wang.relevancerecycleviewdemo.view.CusRecyclerView
+       android:layout_weight="1"
+       android:id="@+id/rec"
+       android:layout_width="match_parent"
+       android:layout_height="match_parent">
+   </cn.example.wang.relevancerecycleviewdemo.view.CusRecyclerView>
+
+</LinearLayout>

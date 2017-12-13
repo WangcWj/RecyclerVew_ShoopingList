@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="70dp"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    android:layout_height="wrap_content">
+   <ImageView
+       android:id="@+id/product_inner_item_img"
+       android:src="@mipmap/ic_launcher"
+       android:layout_width="match_parent"
+       android:layout_height="50dp" />
+   <TextView
+       android:text="王超"
+       android:id="@+id/product_inner_title_text"
+       android:textColor="#333333"
+       android:gravity="center"
+       android:textSize="15sp"
+       android:layout_marginTop="5dp"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content" />
+</LinearLayout>
